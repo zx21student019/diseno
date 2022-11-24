@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio4</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .fruta {
+            list-style: none;
+            display: inline-block;
+            width: 80px;
+            margin: 30px;
+            border: 1px blue solid;
+            border-radius: 5px;
+            padding: 5px 15px 5px 15px;
+            font-size: 20px;
+            background-color: blue;
+            color: white;
+            text-align: center;
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+        }
+
+        .fruta img {
+            display: none;
+        }
+
+        .fruta:hover {
+            background-color: green;
+        }
+
+        .fruta:hover img {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="lista">
+        <li class="fruta">Arándanos<img src="img/arandano.png"></li>
+        <li class="fruta" >Plátanos <img src="img/platano.png"></li>
+        <li class="fruta" >Fresas <img src="img/fresa.png"></li>
+        <li class="fruta" >Cerezas <img src="img/cereza.png"></li>
+    </ul>
+</body>
+
+</html>

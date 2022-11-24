@@ -1,0 +1,91 @@
+/*GLOBAL*/
+  *{
+    background-color: #151515;
+    color: white;
+    font-family:, arial;
+  }
+
+/*DIV*/
+
+  div.cabecera {
+    background-image: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700439579.jpg);
+    background-size:auto;
+    padding: 90px;
+  }
+  div.novedades {
+    background-image: url(https://fondosmil.com/fondo/22286.png);
+    background-attachment: fixed;
+    padding-bottom: 100px;
+    padding-top:90px;
+  }
+  div.redes{
+    font-style: italic;
+    font-size: 25px;
+  }
+
+/*TITULOS*/
+
+  h2{
+    background-color:transparent;
+    font-familly:verdana, Arial;
+    font-size: 32px;
+    color: white;
+  }
+  h3{
+    background-color:transparent;
+    font-familly:verdana, arial;
+    font-size: 24px;
+  }
+
+/*IMAGENES Y VIDEOS*/
+
+  img.madmag{
+    width: 500px;
+    box-shadow: 2px 2px 5px;
+  }
+  img.imgnoticias {
+    width: 392px;
+    height: 220px;
+  }
+  img.img50{
+    width: 50px;
+  }
+  img.img85{
+    width: 85px;
+  }
+  iframe {
+    width: 392px;
+    height: 220px;
+  }
+
+/*TABLAS*/
+
+  table.table1{
+    align-items: center;
+    margin: 30px;
+    border:gray 5px solid ;
+    border-collapse: collapse;
+  }
+  td.td2{
+    width: 600px;
+    border: gray 2px solid;
+  }
+  td.td1{
+    border: gray 2px solid;
+  }
+
+/*ENLACES*/
+
+  a {
+    text-decoration: none;
+    padding: 2px 1px 0;
+  }
+  a:link {
+    color: #FFB469;
+  }
+  a:visited {
+    color: #C66605;
+  }
+  a:active {
+    color: white;
+  }

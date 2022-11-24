@@ -1,0 +1,10 @@
+.div1, .div3{
+    background-color: #f39393;
+}
+
+.div2 {
+    background-color: yellow;
+    top: 30px;
+    left: 30px;
+    position: absolute;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea-12(2)</title>
+    <style>
+        @keyframes anim1 {
+
+            /*Amarillo*/
+            25% {
+                background-color: #ff0;
+                translate: 100px 0px;
+            }
+
+            /*Naranja*/
+            50% {
+                background-color: red;
+                translate: 100px 100px;
+            }
+
+            /*Rojo*/
+            75% {
+                background-color: #f80;
+                translate: 0px 100px;
+            }
+
+            /*Otra vez naranja*/
+            100% {
+                background-color: #ff0;
+                translate: 0px 0px;
+            }
+
+            /*Otra vez amarillo*/
+        }
+
+        @keyframes anim2 {0% {
+                background-color: #ff0;
+                transform: rotate(360deg);
+            }
+
+            /*Amarillo*/
+            25% {
+                background-color: #f80;
+                transform: rotate(270deg);
+            }
+
+            /*Naranja*/
+            50% {
+                background-color: red;
+                transform: rotate(180deg);
+            }
+
+            /*Rojo*/
+            75% {
+                background-color: #f80;
+                transform: rotate(90deg);
+            }
+
+            /*Otra vez naranja*/
+            100% {
+                background-color: #ff0;
+                transform: rotate(0deg);
+            }
+
+            /*Otra vez amarillo*/
+        }
+
+        .principal {
+            text-align: center;
+            display: flex;
+        }
+
+        .uno {
+            width: 200px;
+            height: 200px;
+            animation-name: anim1;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+
+        .dos {
+            background: #f80;
+            width: 200px;
+            height: 200px;
+            animation-name: anim2;
+            animation-delay: 1s;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Ejercicio2</h1>
+    <div class="principal">
+        <div class="uno">Texto en el interior 1</div>
+        <div class="dos">Texto en el interior 2</div>
+    </div>
+
+</body>
+
+</html>

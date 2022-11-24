@@ -1,0 +1,35 @@
+* {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type:none;
+    padding: 5px 1.5em 5px 2em;
+    border-left: 1px solid blue;
+    border-right: none;
+    border-collapse: collapse;
+}
+
+li:last-child{
+    border-right: 1px solid blue;
+}
+
+li:hover {
+    background-color: blue;
+    padding: 5px 1.5em 5px 2em;
+    border-left: 1px solid blue;
+    border-right: 1px solid blue;
+    border-collapse: collapse;
+}
+
+.menu {
+    list-style-type:none;
+    display: flex;
+    flex-direction: row;
+    border-collapse: collapse;
+    margin: 0;
+}

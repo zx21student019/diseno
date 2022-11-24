@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio2</title>
+    <style>
+        /*Características comunes*/
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        label {
+            padding: 5px;
+        }
+
+        .botonesRadioTam>label {
+            padding: 0;
+        }
+
+        .botonesCheckComp>label {
+            padding: 0;
+        }
+
+        .selectCateg {
+            width: 300px;
+            display: block;
+        }
+
+        .inputSabor {
+            width: 300px;
+            display: block;
+        }
+
+        .btnEnviar {
+            width: 100%;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        .btnBorrar {
+            width: 100%;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        /*Formulario 1*/
+        .left {
+            position: relative;
+            float: left;
+            width: 40%;
+            margin: 5%;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .form1 {
+            background-color: aqua;
+            padding: 20px;
+        }
+
+        #enviar1 {
+            background-color: #FF00D1;
+            font-size: 15px;
+            font-weight: bold;
+            color: white;
+        }
+
+        #borrar1 {
+            background-color: orange;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        /*Formulario 2*/
+
+        .right {
+            position: relative;
+            float: right;
+            width: 40%;
+            margin: 5%;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .form2 {
+            background-color: lightgreen;
+            padding: 20px;
+        }
+
+        #sabor2:focus {
+            border: 4px solid red;
+            background-color: yellow;
+        }
+
+        #enviar2 {
+            background-color: orange;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        #borrar2 {
+            background-color: #FF00D1;
+            font-size: 15px;
+            font-weight: bold;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="left">
+        <form class="form1">
+            <fieldset>
+                <h1>Heladería</h1>
+                <p>Añade un producto:</p>
+                <label>Categoría:</label>
+                <select class="selectCateg">
+                    <option selected>Seleccione categoria</option>
+                </select>
+                <label>Sabor:</label>
+                <input type="text" class="inputSabor" placeholder="Elige un sabor...">
+                <label>Tamaño</label>
+                <div class="botonesRadioTam">
+                    <input type="radio" id="grande" class="btnRadio" name="btnRadio" value="grande">
+                    <label for="grande">Grande</label>
+                    <input type="radio" id="mediano" class="btnRadio" name="btnRadio" value="mediano">
+                    <label for="mediano">Mediano</label>
+                    <input type="radio" id="pequeño" class="btnRadio" name="btnRadio" value="pequeño">
+                    <label for="pequeño">Pequeño</label>
+                </div>
+                <p>Selecciona un complemento:</p>
+                <div class="botonesCheckComp">
+                    <input type="checkbox" id="grande" class="btnCheck" name="btnCheck">
+                    <label for="grande">Chispas de chocolate</label>
+                    <input type="checkbox" id="mediano" class="btnCheck" name="btnCheck">
+                    <label for="mediano">Sirope</label>
+                    <input type="checkbox" id="pequeño" class="btnCheck" name="btnCheck">
+                    <label for="pequeño">Lacasitos</label>
+                </div>
+                <button type="submit" class="btnEnviar" id="enviar1">Enviar</button>
+                <button type="reset" class="btnBorrar" id="borrar1">Borrar</button>
+            </fieldset>
+        </form>
+    </div>
+    <div class="right">
+        <form class="form2">
+            <fieldset>
+                <h1>Heladería</h1>
+                <p>Añade un producto:</p>
+                <label>Categoría:</label>
+                <select class="selectCateg">
+                    <option selected>Seleccione categoria</option>
+                </select>
+                <label>Sabor:</label>
+                <input type="text" class="inputSabor" placeholder="Elige un sabor..." id="sabor2">
+                <label>Tamaño</label>
+                <div class="botonesRadioTam">
+                    <input type="radio" id="grande" class="btnRadio" name="btnRadio" value="grande">
+                    <label for="grande">Grande</label>
+                    <input type="radio" id="mediano" class="btnRadio" name="btnRadio" value="mediano">
+                    <label for="mediano">Mediano</label>
+                    <input type="radio" id="pequeño" class="btnRadio" name="btnRadio" value="pequeño">
+                    <label for="pequeño">Pequeño</label>
+                </div>
+                <p>Selecciona un complemento:</p>
+                <div class="botonesRadioComp">
+                    <input type="checkbox" id="grande" class="btnCheck" name="btnCheck">
+                    <label for="grande">Chispas de chocolate</label>
+                    <input type="checkbox" id="mediano" class="btnCheck" name="btnCheck">
+                    <label for="mediano">Sirope</label>
+                    <input type="checkbox" id="pequeño" class="btnCheck" name="btnCheck">
+                    <label for="pequeño">Lacasitos</label>
+                </div>
+                <button type="submit" class="btnEnviar" id="enviar2">Enviar</button>
+                <button type="reset" class="btnBorrar" id="borrar2">Borrar</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>

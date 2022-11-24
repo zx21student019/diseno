@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animacion pacman</title>
+    <style>
+        .pac{
+           position: relative;
+           animation-name: muvin;
+           animation-duration: 5s;
+           animation-timing-function: linear;
+           animation-iteration-count: infinite;
+        }
+
+        @keyframes muvin{
+
+            0%{
+                left: 400px;
+                top: 230px;
+            }
+            10%{
+                left: 400px;
+                top: 350px;
+            }
+            20%{
+                left: 610px;
+                top: 350px;
+            }
+            30%{
+                left: 610px;
+                top: 590px;
+            }
+            40%{
+                left: 410px;
+                top: 590px;
+            }
+            50%{
+                left: 410px;
+                top: 645px;
+            }
+            60%{
+                left: 490px;
+                top: 645px;
+            }
+            70%{
+                left: 490px;
+                top: 705px;
+            }
+            80%{
+                left: 410px;
+                top: 705px;
+            }
+            90%{
+                left: 410px;
+                top: 760px;
+            }
+            100%{
+                left: 400px;
+                top: 760px;
+            }
+
+
+        }
+
+    </style>
+</head>
+<body>
+   <div>
+    <img class="pac" src="Pacman.png" alt="" width="25px" height="25px">
+    <img class="fondo" src="fondo.jpg" alt="" width="100%" height="100%">
+   </div>
+</body>
+</html>

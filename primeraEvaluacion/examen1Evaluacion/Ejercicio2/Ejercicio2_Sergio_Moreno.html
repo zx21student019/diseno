@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio2</title>
+    <style>
+        body{
+            display: flex;
+        }
+        .formulario {
+            width: 800px;
+            height: 500px;
+            background-color: #ABFF65;
+            font-family: sans-serif;
+            font-size: 24px;
+            padding-top: 20px;
+            padding-left: 50px;
+            padding-bottom: 50px;
+            padding-right: 50px;
+        }
+        .nombre {
+            
+        }
+        button{
+            background-color: #EB8503;
+            color: F7DD98;
+        }
+        .portada {
+            background-color: #F7DD98;
+            text-align: center;
+            width: 600px;
+            margin-left: 100px;
+            height: 350px;
+        }
+        .h1{
+            color: #FF5900;
+            font-size: 36px;
+        }
+        .h3{
+            color: #EB8503;
+            font-size: 30px;
+        }
+        .p{
+            color: black;
+
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="formulario">
+        <fieldset>
+            <div class="datosPersonales">Datos personales</div>
+
+        <div class="nombre">
+            <label for="">Nombre:</label>
+            <input id="nombre" name="nombre" value=""/>
+        </div>
+
+        <div class="apellidos">
+            <label for="">Apellidos:</label>
+            <input id="apellidos" name="apellidos" value=""/>
+        </div>
+
+        <div class="fecha">
+            <label for="">Fecha de nacimiento:</label>
+            <input id="fecha" name="fecha" value="" type="date"/>
+        </div>
+
+        <div class="nacionalidad">
+            <label for="">Nacionalidad:</label>
+            <select id="nacionalidad" name="nacionalidad">
+                <option value="" ></option>
+                <option value="nacionalidad1">nacionalidad 1</option>
+                <option value="nacionalidad2">nacionalidad 2</option>
+                <option value="nacionalidad3">nacionalidad 3</option>
+            </select>
+        </div>
+
+        <div class="comentarios">
+            <label for="">Comentarios:</label>
+            <input id="comentarios" name="comentarios" value="" type="text"/>
+        </div>
+        <div class="enviar">
+            <button>Enviar</button>
+        </fieldset>
+        
+        </div>
+    </div>
+
+    <div class="portada">
+        <h1 class="h1">TÉCNICO SUPERIOR EN DESARROLLO DE APLICACIONES WEB</h1>
+        <h3 class="h3">ESTE PROFESIONAL SERÁ CAPAZ DE...</h3>
+        <p class="p">Desarrollar, implantar, y mantener aplicaciones web, con independencia del modelo empleado y utilizando tecnologías específicas, garantizando el acceso a los datos de forma segura y cumpliendo los criterios de accesibilidad, usabilidad y calidad exigidas en los estándares establecidos.</p>
+        <img src="DIW.jpg" alt="">
+    </div>
+</body>
+</html>

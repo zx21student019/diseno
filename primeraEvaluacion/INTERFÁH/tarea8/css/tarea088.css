@@ -1,0 +1,39 @@
+.cabecera {
+    text-align: center;
+    background-color:#FFFFE0 ;
+    width: 860px;
+    height: 40px;
+}
+
+.menu {
+    text-align: center;
+    background-color:#DEB887 ;
+    float: left;
+    width: 150px;
+    height: 100px;
+}
+
+.principal {
+    text-align: center;
+    background-color: #F5F5DC;
+    float: left;
+    left: 150px;
+    width: 510px;
+    height: 100px;
+}
+
+.lateral {
+    text-align: center;
+    background-color: #7FFFD4;
+    float: left;
+    left:660px;
+    width: 200px;
+    height: 100px;
+}
+
+.pie {
+    text-align: center;
+    background-color: #FFE4C4;
+    width: 860px;
+    height: 150px;
+}

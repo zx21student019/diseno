@@ -1,0 +1,9 @@
+.div1, .div2, .div3 {
+    background-color: #FF9999;
+}
+ 
+.div2 {
+    position: relative;
+    left: 15px;
+    top: 5px;
+}

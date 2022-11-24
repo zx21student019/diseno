@@ -1,0 +1,199 @@
+/**referencias a otras fuentes**/
+@import url('http://fonts.cdnfonts.com/css/another-xanadu');
+
+/**CUERPO**/
+* {
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+
+/**CABECERA**/
+.menu {
+    background-color: rgb(124, 124, 124);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    padding-top: 1%;
+    z-index: 1;
+}
+
+.menuUl {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+    margin-left: 0px;
+}
+
+.icono {
+    margin-top: 7px;
+    width: 62px;
+    height: 62px;
+}
+
+.icono:hover {
+    width: 62px;
+    height: 62px;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.menuLi {
+    height: 50px;
+    float: left;
+    font-family: 'Another Xanadu', sans-serif;
+    display: flex;
+    flex-direction: row wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menuLi:hover {
+    padding-top: 1%;
+    height: 30px;
+    background-color: sandybrown;
+    border-radius: 70px;
+}
+
+/**CUERPO PÁGINA**/
+
+
+.divImagenPrincipal {
+    background: url("fotos/fondo.gif") no-repeat;
+    position: relative;
+    padding-top: 40%;
+    padding-bottom: 5%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+.fondo_img {
+    padding-top: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.pJuegaYa {
+    font-family: 'Another Xanadu', sans-serif;
+    color: black;
+    padding-top: 10%;
+}
+
+.divJuega {
+    border: 5px black solid;
+    height: 30px;
+    width: 80px;
+    background-color: rgb(255, 136, 32);
+    text-align: center;
+    left: 42%;
+    position: relative;
+    border-radius: 15px;
+    font-size: xx-small;
+}
+
+.divJuega:hover {
+    height: 30px;
+    width: 80px;
+    background-color: white;
+    left: 42%;
+
+    text-align: center;
+    border-radius: 15px;
+}
+
+@media (min-width:759px) {
+    .divJuega {
+        border: 5px black solid;
+        height: 50px;
+        width: 140px;
+        background-color: rgb(255, 136, 32);
+        text-align: center;
+        left: 45%;
+        position: relative;
+        border-radius: 15px;
+        font-size: 16px;
+    }
+    .divJuega:hover {
+        height: 50px;
+        width: 140px;
+        background-color: white;
+        left: 45%;
+        text-align: center;
+        border-radius: 15px;
+    }
+}
+
+.imgPersonajes {
+    background: url("fotos/fondo3.png") no-repeat;
+    padding-top: 6%;
+    padding-bottom: 2%;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+}
+
+.cajaPersonajes {
+    background-color: grey;
+    opacity: 0.25;
+    height: 250px;
+    width: 350px;
+    top: 0%;
+    left: 10%;
+    position: relative;
+    display: flex;
+}
+
+@media (min-width:759px) {
+    .cajaPersonajes {
+        background-color: grey;
+        opacity: 0.25;
+        height: 500px;
+        width: 950px;
+        top: 0%;
+        left: 10%;
+        position: relative;
+        display: flex;
+    }
+}
+
+
+/**PIE PÁGINA**/
+.tablaPie{
+    align-items: center;
+}
+
+.soldadito{
+    width: 75px;
+    height: 75px;
+}
+
+.iconoF {
+    width: 52px;
+    height: 52px;
+    padding-top: 10px;
+}
+
+.iconoF:hover {
+    width: 50px;
+    height: 50px;
+}
+
+.contacto{
+    font-family: 'Another Xanadu', sans-serif;
+    padding-top: 10px;
+}
+
+.pie {
+    background-color: rgb(124, 124, 124);
+    margin-bottom: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
