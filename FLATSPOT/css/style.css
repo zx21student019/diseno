@@ -41,8 +41,14 @@ p {
 }
 
 .cuerpo {
-    width: 100%;
+    color: #eff1e1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
     background-color: #212121;
+    padding-top: 40px;
+
 }
 .log{
     display: flex;
@@ -87,8 +93,9 @@ a.iniSesion:hover {
   }
 
 .divImagenBluntslide{
-    width: 200px;
-    height: 200px;
-    background-image:url(img/bluntslide.jpg);
+    width: 459px;
+    height: 686px;
+    background-image:url("./../img/bluntslide.jpg");
+    
 }
 
