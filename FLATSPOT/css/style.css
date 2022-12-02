@@ -39,11 +39,13 @@ p {
 .Flatspot {
     max-width: 240px;
 }
-.log{
+
+.log {
     display: flex;
     flex-direction: row;
-    gap: 25px;  
+    gap: 25px;
 }
+
 a.regis,
 a.iniSesion {
     color: #eff1e1;
@@ -73,15 +75,18 @@ a.iniSesion:hover {
     text-decoration: none;
     color: #EF8354;
 }
+
 .material-symbols-outlined {
     font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 200
-  }
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 200
+}
 
-  .parte1, .parte2, .parte3 {
+.parte1,
+.parte2,
+.parte3 {
     color: #eff1e1;
     display: flex;
     flex-direction: row;
@@ -91,29 +96,27 @@ a.iniSesion:hover {
     padding-top: 40px;
 }
 
-.divImagenBluntslide{
-    display: block;
-    background-image:url("./../img/bluntslide.jpg");
+.divImagenBluntslide {
+    background-image: url("./../img/bluntslide.jpg");
     min-width: 459px;
     min-height: 686px;
-    background-attachment: fixed;
-    background-size: contain;
-    
+
 }
-.divImagenKickflip{
-    background-attachment: fixed;
+
+.divImagenKickflip {
     width: 459px;
     height: 686px;
-    background-image:url("./../img/adianDelCampoKickflip.jpg");
-    
+    background-image: url("./../img/adianDelCampoKickflip.jpg");
+
 }
-.divImagenSk8land{
-    background-attachment: fixed;
+
+.divImagenSk8land {
     width: 459px;
     height: 686px;
-    background-image:url("./../img/sk8land.jpg");
-    
+    background-image: url("./../img/sk8land.jpg");
+
 }
+
 .cuerpo {
     position: relative;
     z-index: 2;
@@ -126,3 +129,8 @@ a.iniSesion:hover {
     padding-top: 40px;
 }
 
+.texto1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
