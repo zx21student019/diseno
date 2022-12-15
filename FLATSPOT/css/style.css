@@ -84,11 +84,13 @@ a.iniSesion:hover {
   .parte1, .parte2, .parte3 {
     color: #eff1e1;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    justify-items: center;
-    background-color: #212121;
+    justify-content:center;
+    align-items: center;
     padding-top: 40px;
+    gap: 10%;
+}
+.parte1_1 h1{
+    font-size: 55px;
 }
 
 .divImagenBluntslide{
@@ -96,33 +98,47 @@ a.iniSesion:hover {
     background-image:url("./../img/bluntslide.jpg");
     min-width: 459px;
     min-height: 686px;
-    background-attachment: fixed;
-    background-size: contain;
     
 }
 .divImagenKickflip{
-    background-attachment: fixed;
     width: 459px;
     height: 686px;
     background-image:url("./../img/adianDelCampoKickflip.jpg");
     
 }
 .divImagenSk8land{
-    background-attachment: fixed;
     width: 459px;
     height: 686px;
     background-image:url("./../img/sk8land.jpg");
     
 }
-.cuerpo {
-    position: relative;
-    z-index: 2;
-    color: #eff1e1;
+.tiraVertical{
+    background-color: #161616;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.textoMarcas{
+    background-color: #eff1e1;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+.listaMarcas{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    justify-items: center;
-    background-color: #212121;
-    padding-top: 40px;
-}
 
+}
+.listaMarcas img {
+    width: 15%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+}
