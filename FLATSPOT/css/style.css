@@ -102,33 +102,20 @@ a.iniSesion:hover {
     background-image: url("./../img/bluntslide.jpg");
     min-width: 459px;
     min-height: 686px;
-<<<<<<< HEAD
     
 }
 .divImagenKickflip{
-=======
-
-}
-
-.divImagenKickflip {
->>>>>>> ff75e0c184a22f6b2c2ee7df936044fbaec5922e
     width: 459px;
     height: 686px;
     background-image: url("./../img/adianDelCampoKickflip.jpg");
 
 }
-<<<<<<< HEAD
 .divImagenSk8land{
-=======
-
-.divImagenSk8land {
->>>>>>> ff75e0c184a22f6b2c2ee7df936044fbaec5922e
     width: 459px;
     height: 686px;
     background-image: url("./../img/sk8land.jpg");
 
 }
-<<<<<<< HEAD
 .tiraVertical{
     background-color: #161616;
     height: 100px;
@@ -148,18 +135,10 @@ a.iniSesion:hover {
     align-items: center;
 }
 .listaMarcas{
-=======
-
-.cuerpo {
-    position: relative;
-    z-index: 2;
-    color: #eff1e1;
->>>>>>> ff75e0c184a22f6b2c2ee7df936044fbaec5922e
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 
-<<<<<<< HEAD
 }
 .listaMarcas img {
     width: 15%;
@@ -167,10 +146,3 @@ a.iniSesion:hover {
     object-fit: contain;
     mix-blend-mode: color-burn;
 }
-=======
-.texto1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
->>>>>>> ff75e0c184a22f6b2c2ee7df936044fbaec5922e
