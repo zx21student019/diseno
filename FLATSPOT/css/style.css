@@ -1,9 +1,12 @@
+/*Fuente*/
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;600;800&display=swap');
 
 * {
     font-family: 'Maven Pro', sans-serif;
 }
 
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*General*/
 body {
     margin: 0px;
     background-color: #212121;
@@ -17,6 +20,8 @@ p {
     margin: 0px;
 }
 
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*cabecera*/
 .cabecera {
     background-color: #161616;
     height: 100px;
@@ -27,13 +32,6 @@ p {
     padding: 0 25px;
     position: sticky;
     top: 0px;
-}
-
-.titulo {
-    background-color: #131313;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 }
 
 .Flatspot {
@@ -84,12 +82,14 @@ a.iniSesion:hover {
         'opsz' 200
 }
 
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*cuerpo del inicio*/
 .parte1,
 .parte2,
 .parte3 {
     color: #eff1e1;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     padding-top: 40px;
     gap: 10%;
@@ -97,10 +97,11 @@ a.iniSesion:hover {
 
 .parte1 h1,
 .parte2 h1,
-.parte3 h1{
+.parte3 h1 {
     font-size: 55px;
 }
-.parte1_1 h1{
+
+.parte1_1 h1 {
     font-size: 55px;
 }
 
@@ -108,21 +109,24 @@ a.iniSesion:hover {
     background-image: url("./../img/bluntslide.jpg");
     min-width: 459px;
     min-height: 686px;
-    
+
 }
-.divImagenKickflip{
+
+.divImagenKickflip {
     width: 459px;
     height: 686px;
     background-image: url("./../img/adianDelCampoKickflip.jpg");
 
 }
-.divImagenSk8land{
+
+.divImagenSk8land {
     width: 459px;
     height: 686px;
     background-image: url("./../img/sk8land.jpg");
 
 }
-.tiraVertical{
+
+.tiraVertical {
     background-color: #EF8354;
     height: 135px;
     display: flex;
@@ -132,25 +136,76 @@ a.iniSesion:hover {
     margin-top: 80px;
     margin-bottom: 80px;
 }
-.textoMarcas{
+
+.textoMarcas {
     background-color: #eff1e1;
     height: 100%;
     width: 55%;
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     font-size: 23px;
 }
-.listaMarcas{
+
+.listaMarcas {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 
 }
+
 .listaMarcas img {
     width: 12%;
     aspect-ratio: 16/9;
     object-fit: contain;
     mix-blend-mode: darken;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*Cuerpo de zapatillas*/
+
+div.producto {
+    margin: 25px;
+    width: 400px;
+    height: 450px;
+    background-color: #eff1e1;
+    border: #EF8354 8px solid;
+    border-radius: 20px 70px;
+    padding: 20px;
+    display: inline-block;
+}
+
+.nombre {
+    font-size: 30px;
+}
+
+.imagenContenedor {
+    width: 350px;
+    height: 350px;
+}
+
+img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+}
+
+.precio {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+a.anadirCarrito {
+    margin-left: 40px;
+    background-color: #EF8354;
+    color: #eff1e1;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 10px 10px;
+}
+
+a.anadirCarrito:hover {
+    background: #212121;
+    color: #eff1e1
 }
