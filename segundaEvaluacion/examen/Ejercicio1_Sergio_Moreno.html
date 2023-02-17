@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+
+    .titulo {
+      font-size: 40px;
+    }
+
+    .logo {
+      width: 170px;
+    }
+
+    .descripcion {
+      font-size: 20px;
+      margin-bottom: 50px;
+    }
+
+    .ciclo{
+      font-size: 30px;
+    }
+
+    td {
+      padding-top: 25px;
+    }
+    table{
+      margin-bottom: 60px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- he puesto un margen izquierdo y derecho a todo -->
+
+  <!-- con la clase .titulo he aumentado el tamaño de fuente puesto que al estar del mismo tamaño que el resto no sobresalía-->
+  <p class="titulo"><strong>Tecnico DAW </strong></p>
+  <!-- con la clase .logo he cambiado el tamaño del logo, no es lo principal de la pagina -->
+  <img src="logotipo.jpg" class="logo">
+  <!-- He aumentado el tamaño de la fuente para que sea mas fácil de leer y
+  le he puesto un margin-bottom para separar los contenidos mas claramente -->
+  <p class="descripcion"> Este profesional será capaz de desarrollar, implantar, y mantener aplicaciones
+    web, con independencia del modelo empleado y utilizando tecnologías específicas,
+    garantizando el acceso a los datos de forma segura y cumpliendo los criterios
+    de accesibilidad, usabilidad y calidad exigidas en los estándares establecidos. </p>
+
+  <!-- he metido un padding-top a los td puesto que estaban muy pegados entre ellos y eso dificultaba la lectura -->
+  <table>
+    <tr>
+  <!-- he aumentado la fuente de la primera linea para identificar mejor el contenido de la tabla co una visualixacion previa -->
+      <td colspan="2" class="ciclo">DAW - información y Módulos Profesionales</td>
+    </tr>
+    <tr>
+      <td><strong>Código del Ciclo</strong></td>
+      <td>IFCS03</td>
+    </tr>
+    <tr>
+      <td><strong>Duración</strong></td>
+      <td>2000 horas, 2 cursos académicos, incluida la F.C.T.</td>
+    </tr>
+    <tr>
+      <td><strong>Curso 1º</strong></td>
+      <td>Formación y orientación laboral / Sistemas informáticos / Bases de datos /
+        Programación / Lenguajes de marcas y sistemas de gestión de información /
+        Entornos de desarrollo</td>
+    </tr>
+    <tr>
+      <td><strong>Curso 2º</strong></td>
+      <td>Desarrollo web en entorno cliente / Desarrollo web en entorno servidor /
+        Despliegue de aplicaciones web / Diseño de interfaces WEB / Inglés técnico para
+        grado superior / Empresa e iniciativa emprendedora/ Proyecto de desarrollo de
+        aplicaciones web / Formación en Centros de Trabajo (F.C.T.)</td>
+    </tr>
+  </table>
+<!-- He separado la tabla del formulario con un margen y creado un titulo para el formulario,
+con esto conseguimos tener mas claro que vamos a encontrar en cada parte de la web y que el 
+usuario encuentre lo que esperaba en cada parte -->
+  <form method="post">
+    <h1>Formulario</h1>
+    <p>
+      Nombre del interesado: <input type="text" name="nombre" id="nombre" required>
+      <br /> <br />
+      Lugar de procedencia: <input type="text" name="lugar" id="lugar">
+      <br /> <br />
+      email: <input type="text" name="email" id="email" required>
+      <br /> <br />
+      <input type="reset">
+    </p>
+  </form>
+</body>
+
+</html>
