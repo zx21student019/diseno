@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+
+    <style>
+        /*cuerpo*/
+        body {
+            margin: 0;
+        }
+
+        /*cabecera*/
+        .cabecera {
+            background-color: #9900FF;
+            min-height: 140px;
+            max-width: 100%;
+        }
+
+        .cabecera>p {
+            min-height: 60px;
+            margin: 0;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 20px;
+        }
+
+        .cabecera nav,
+        .cabecera nav div {
+            max-width: 100%;
+            display: flex;
+            flex: row;
+            gap: 80px;
+            justify-content: center;
+        }
+
+        .cabecera nav div p {
+            margin: 0;
+            height: fit-content;
+            padding: 15px 100px;
+            background-color: #FFAB40;
+            font-size: 16px;
+        }
+
+        .cabecera nav {
+            padding: 20px 0;
+        }
+
+        /*contenedores*/
+        .contenedor {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+        }
+
+        .contenedor1 {
+            height: 400px;
+            background-color: #FFFF00;
+            grid-column: 1 / 4;
+        }
+
+        .contenedor2 {
+            height: 400px;
+            background-color: #FF00FF;
+            grid-column: 4 / 6;
+        }
+
+        /*media*/
+        @media (min-width: 400px) and (max-width: 700px) {
+            .cabecera nav div {
+                flex-direction: column;
+            }
+
+            .cabecera nav,
+            .cabecera nav div {
+                gap: 30px;
+            }
+        }
+
+        @media (max-width: 400px) {
+
+            .cabecera nav,
+            .cabecera nav div {
+                gap: 20px;
+                flex-direction: column;
+                max-width: 90%;
+                margin: 0 auto;
+            }
+
+            .contenedor {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cabecera">
+        <p>Barra superior</p>
+        <nav>
+            <div>
+                <p>Caja 1</p>
+                <p>Caja 2</p>
+            </div>
+            <div>
+                <p>Caja 3</p>
+                <p>Caja 4</p>
+            </div>
+        </nav>
+    </div>
+    <div class="contenedor">
+        <div class="contenedor1"></div>
+        <div class="contenedor2"></div>
+    </div>
+</body>
+
+</html>
