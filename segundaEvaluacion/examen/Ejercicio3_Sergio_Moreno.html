@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        .cabecera {
+            background-color: #007bff;
+            color: #f8f9fa;
+            width: 100%;
+            display: inline-flex;
+            justify-content: space-between;
+        }
+
+        .logo-vengadores {
+            width: 60%;
+            display: inline-flex;
+            justify-content: space-between;
+        }
+
+        .cuerpo {
+            width: 100%;
+            display: inline-flex;
+            justify-content: space-between;
+        }
+
+        .gris-amarillo {
+            width: 66%;
+            display: inline-flex;
+            justify-content: space-between;
+        }
+
+        .gris {
+            width: 50%;
+            background-color: #6c757d;
+            color: #f8f9fa;
+        }
+
+        .amarillo {
+            width: 50%;
+            background-color: #ffc107;
+            padding: 5px;
+        }
+
+        .azul {
+            width: 34%;
+        }
+
+        .imagenGrande {
+            padding: 7px;
+            background-color: #dc3545;
+        }
+
+        .personas {
+            background-color: #17a2b8;
+            width: 100%;
+            display: inline-flex;
+            justify-content: space-around;
+        }
+
+        .ironMan {
+            padding: 10px;
+            text-align: center;
+        }
+
+        .hulk {
+            padding: 10px;
+            text-align: center;
+            border-left: 2px solid black;
+        }
+
+        .capitanAmerica {
+            padding: 10px;
+            text-align: center;
+            border-left: 2px solid black;
+        }
+
+
+        /*media*/
+        @media (min-width: 400px) and (max-width: 700px) {
+            .cabecera {
+                flex-direction: column;
+            }
+
+            .cuerpo {
+                width: 100%;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+
+            .gris-amarillo {
+                width: 100%;
+            }
+
+            .azul {
+                width: 100%;
+            }
+        }
+
+
+        @media (max-width: 400px) {
+
+            .cabecera {
+                flex-direction: column;
+            }
+
+            .cuerpo {
+                width: 100%;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+
+            .gris-amarillo {
+                width: 100%;
+            }
+
+            .azul {
+                width: 100%;
+            }
+
+            .personas {
+                width: 100%;
+                flex-direction: column;
+            }
+
+            .hulk {
+                border-top: 2px solid black;
+            }
+
+            .capitanAmerica {
+                border-top: 2px solid black;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cabecera">
+        <div class="logo-vengadores">
+            <div class="logo"><img src="logo.ico" alt=""></div>
+            <div class="vengadores">
+                <h1>Los Vengadores</h1>
+            </div>
+        </div>
+        <div class="realizado">Realizado por Sergio Moreno</div>
+    </div>
+
+    <div class="cuerpo">
+        <div class="gris-amarillo">
+            <div class="gris">
+                <ul>
+                    <li>Iron man</li>
+                    <li>Hulk</li>
+                    <li>Capitan America</li>
+                    <li>Viuda Negra</li>
+                    <li>Thor</li>
+                </ul>
+            </div>
+            <div class="amarillo">Los Vengadores fueron un equipo
+                compuesto por personas extraordinarias,
+                individuos alterados u otras características especiales, que se encargaba
+                de proteger la Tierra de las amenazas internacionales o alienígenas.
+                Aunque principalmente estaban afiliados a los Estados Unidos, trabajaron
+                teniendo en cuenta los intereses pacíficos del mundo en lugar de un país
+                u organización en específico. Fueron reunidos por Nicholas Fury y
+                S.H.I.E.L.D. a través de la Iniciativa Vengadores para que sean liderados
+                por Steven Rogers y detengan la Invasión Chitauri de Loki, a quien
+                vencieron en la Batalla de Nueva York, antes de tomar caminos separados.</div>
+        </div>
+        <div class="azul">
+            <div class="imagenGrande"><img src="vengadores.jpg" alt="" width="100%"></div>
+            <div class="personas">
+                <div class="ironMan"><img src="ironman1.png" alt="">
+                    <p>Tony es un caprichoso multimillonario y genio inventor de la
+                        inteligencia artificial Jarvis. Es el heredero de Stark Industries
+                        y de una tecnología revolucionaria que aplica en su propio traje.</p>
+                </div>
+                <div class="hulk"><img src="hulk1.png" alt="">
+                    <p>Banner es un brillante científico bioquímico y experto en física
+                        molecular. También es un gigante verde de fuerza desconocida
+                        cuando se enfada</p>
+                </div>
+                <div class="capitanAmerica"><img src="capitan1.png" alt="">
+                    <p>Rogers era un soldado flacucho de corazón puro en la Segunda
+                        Guerra Mundial que, a través de un suero especial, terminó
+                        convertido en una especie de súper guerrero.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
