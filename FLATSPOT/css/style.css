@@ -209,3 +209,74 @@ a.anadirCarrito:hover {
     background: #212121;
     color: #eff1e1
 }
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*media*/
+
+@media (min-width: 400px) and (max-width: 700px) {
+    .cabecera {
+        background-color: #161616;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 0px;
+        position: sticky;
+        top: 0px;
+    }
+
+    .log {
+        gap: 0px;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .parte1,
+    .parte2,
+    .parte3 {
+        color: #eff1e1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 40px;
+        gap: 10%;
+    }
+}
+
+@media (max-width: 400px) {
+.cabecera {
+    background-color: #161616;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0px;
+    position: sticky;
+    top: 0px;
+}
+
+.log {
+    gap: 0px;
+}
+
+.menu {
+    flex-direction: column;
+    gap: 0px;
+}
+
+.parte1,
+.parte2,
+.parte3 {
+    color: #eff1e1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    gap: 10%;
+}
+}
